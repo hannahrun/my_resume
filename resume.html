@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [YourName]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+<script>function lti_launch( vars, target ) {
+						var query = '';
+						var new_tab = false;
+
+						for(var key in vars) {
+							if(query.length == 0) {
+								query += '?' + key + '=' + encodeURIComponent(vars[key]);
+							}
+							else {
+								query += '&' + key + '=' + encodeURIComponent(vars[key]);
+							}
+						}
+
+						var url = '/d2l/customization/pearsonlti/737504/Launch' + query;(target == '_blank') ? window.open( url, '_blank' ) : location.replace( url );}</script><script src="/d2l/im/d2lreader/D2LReader_v2.js?rsUrl=https%3a%2f%2fapp.readspeaker.com%2fcgi-bin%2frsent&amp;custId=10078&amp;lang=en_us&amp;listenText=Listen&amp;listenTitle=Listen+to+this+page&amp;mode=unknown&amp;v=20.25.1.17695"></script><script>
+				const allowDetach = true;
+
+				window.rsConf = {
+					general: {
+						usePost: true,
+						shadowDomSelector: '[data-rs-shadow-root], d2l-html-block'
+					},
+					ui: {
+						disableDetachment: !allowDetach,
+						playbackDetach: allowDetach,
+						tools: { detachment: allowDetach }
+					}
+				};
+			</script><script src="https://cdn-na.readspeaker.com/script/10078/webReaderForEducation/brightspace/current/webReader.js?pids=wr&amp;dload=BrightSpace"></script><script src="https://s.brightspace.com/lib/bsi/2025.1.234/unbundled/embeds.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+					window.D2L.EmbedRenderer.renderEmbeds(document.body);
+				});</script><script src="https://s.brightspace.com/lib/bsi/2025.1.234/unbundled/mathjax.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+						if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+							document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+								elm.setAttribute('style', 'display: block; height: 0.5rem;');
+							});
+
+							window.D2L.MathJax.loadMathJax({
+								outputScale: 1.5,
+								renderLatex: false,
+								enableMML3Support: false
+							});
+						}
+					});</script><script src="https://s.brightspace.com/lib/bsi/2025.1.234/unbundled/prism.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script><script src="https://s.brightspace.com/lib/bsi/2025.1.234/unbundled/creator.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', async () => {
+					const activities = [];
+					const practices = [];
+					const allPractices = document.querySelectorAll('.d2l-practice');
+					const elements = document.querySelectorAll('.d2l-element');
+					let layouts = [...document.querySelectorAll('.d2l-cplus-layout')];
+					const tables = document.querySelectorAll('table');
+					const contentStylerStyleLinks = document.querySelectorAll('head > link[href="https://templates.lcs.brightspace.com/lib/assets/css/styles.min.css"]');
+					const contentStylerOverides = document.querySelectorAll('head > link[href^="/d2l/le/contentstyler/"][data-override="override"]');
+
+					layouts = layouts.filter((layout) => layout.closest('.d2l-element.mceNonEditable') === null);
+
+					for (const practice of allPractices) {
+						const activityContainer = practice.hasAttribute('data-d2l-activity-href');
+						if (activityContainer) {
+							activities.push(practice);
+						}
+						else {
+							practices.push(practice);
+						}
+					}
+
+					if (layouts.length > 0) {
+						window.D2L.Creator.convertLayouts(layouts);
+					}
+					if (elements.length > 0) {
+						window.D2L.Creator.convertElements(elements, 737504, '/content/enforced/737504-202430CPRG-206-A/', 'True');
+					}
+					if (activities.length > 0) {
+						window.D2L.Creator.convertPracticeActivities(activities, 737504, '/content/enforced/737504-202430CPRG-206-A/');
+					}
+					if (practices.length > 0) {
+						window.D2L.Creator.convertPractices(practices, 737504, '/content/enforced/737504-202430CPRG-206-A/');
+					}
+					if (contentStylerStyleLinks.length > 0 && contentStylerOverides.length > 0 && tables.length > 0) {
+						window.D2L.Creator.wrapTables(tables);
+					}
+				});</script><script>window.addEventListener('message', function(event) { 
+					if( !event.data ) {
+						return;
+					}
+
+					let params;
+					try {
+						params = JSON.parse( event.data );
+					}
+					catch {
+						return;
+					}
+					if( !params.subject || params.subject !== 'lti.frameResize' ) {
+						return;
+					}
+
+					const MAX_FRAME_HEIGHT = 10000;
+					if( !params.height || params.height < 1 || params.height > MAX_FRAME_HEIGHT ) {
+						console.warn( 'Invalid height value received, aborting' );
+						return;
+					}
+					const el = document.getElementsByTagName( 'iframe' );
+					for ( let i=0; i < el.length; i++ ) {
+						if( el[i].contentWindow === event.source ) {
+							el[i].style.height = params.height + 'px';
+
+							console.info( 'Setting iFrame height to ' + params.height );
+
+							if( el[i].getAttribute('lockwidth') !== 'true'){
+								el[i].style.width = '100%';
+								console.info( 'Setting iFrame width to 100%' );
+							}
+						}
+					}
+				});</script></head>
+<body>
+    <header>
+        <h1>Hannah Hassan</h1>
+        <p>Database Administrator | Oracle Developer | SQL Server Developer</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Profile</h2>
+            <p>I am a passionate web developer with expertise in creating user-friendly and visually appealing websites. I love solving complex problems and continuously learning new technologies.</p>
+        </section>
+
+        <section>
+            <h2>EDUCATION <br></h2>
+            <h4>Database Administrator Certificate               April 2025</h5>
+              Southern Alberta Institute of Technology </h4>
+              <h4>Core Concepts </h4>
+              <ul>
+                <li>Data Modelling: developed data models that showed the structure of an
+                    organization's data.</li>
+                <li>Database Design: examined the logical and physical structure of databases.</li>
+                <li>Database Architecture and Database Administration: explored the policies and
+                    other components that work harmoniously to maintain an effective database</li>
+                <li>Database Web Integration</li>
+                <li>Oracle PL/SQL</li>
+            </ul>
+
+        </section>
+            
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Connect to a Database</strong><br> This project demonstrated how to connect to a database through OS authentication <br>and Easy Connect <a href="#">View Project</a></li>
+                <li><strong>Table Creation and Data Loading:</strong> <br>The project demonstrated how: <br> <a href="#">View Project</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:thehannahassan@gmail.com">thehannahassan@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/hannahrun" target="_blank">github.com/hannahrun</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/oluwadamilola-hassan/" target="_blank">linkedin.com/in/HannaHassan</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [HannaHassan]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
